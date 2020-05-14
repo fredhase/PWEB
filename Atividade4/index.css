@@ -1,0 +1,18 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#rock, #paper, #scissor {
+  width: 100px;
+  margin: 5px;
+}
+
+.result-title, #result-text {
+  margin: 2px;
+  display: block;
+}
+
+#player, #pc {
+  display: inline;
+}
